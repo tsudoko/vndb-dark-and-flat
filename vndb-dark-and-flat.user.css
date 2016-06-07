@@ -17,10 +17,6 @@
     }
 
     /* options */
-    #vntags span {
-        width: calc(100%/4 - 20px);
-    }
-
     body {
         background: #000 url('http://i.imgur.com/IujXRPI.png') top left no-repeat;
         background-size: cover;
@@ -225,83 +221,6 @@
     .elm_dd > div > ul li a.active,
     .elm_dd > div > ul li a:hover {
         background: #060606;
-    }
-
-    #vntags {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-        padding: 0 !important;
-        padding-right: 20px !important;
-        text-align: left !important;
-    }
-
-    #vntags span {
-        display: inline-block;
-        text-align: left;
-        margin: 0;
-        margin-left: 5px;
-        transition: 0.25s ease;
-    }
-
-    #vntags span a {
-        font-size: 12px !important;
-    }
-
-    #vntags span.cat_cont {
-        box-sizing: border-box;
-        border-left: 2px solid #00ff00;
-        padding-left: 3px;
-    }
-
-    #vntags span.cat_tech {
-        box-sizing: border-box;
-        border-left: 2px solid #0000ff;
-        padding-left: 3px;
-    }
-
-    #vntags span.cat_ero {
-        box-sizing: border-box;
-        border-left: 2px solid #ff0000;
-        padding-left: 3px;
-    }
-
-    #vntags span.tagspl1 {
-        box-sizing: border-box;
-        border-right: 5px solid #800000;
-    }
-
-    #vntags span.tagspl2 {
-        box-sizing: border-box;
-        border-right: 5px solid #ff0000;
-    }
-
-    #vntags span:hover {
-        border-left-width: 10px;
-        border-right-width: 10px;
-    }
-
-    #tagops a[href='#cont'], #tagops a[href='#tech'], #tagops a[href='#ero'] {
-        border-top: 2px solid #333;
-    }
-
-    #tagops a.tsel[href='#cont'] {
-        border-top: 2px solid #00ff00;
-    }
-
-    #tagops a.tsel[href='#tech'] {
-        border-top: 2px solid #0000ff;
-    }
-
-    #tagops a.tsel[href='#ero'] {
-        border-top: 2px solid #ff0000;
-    }
-
-    #tagops a:nth-of-type(5) {
-        border-top: 2px solid #800000;
-    }
-
-    #tagops a:nth-of-type(6) {
-        border-top: 2px solid #ff0000;
     }
 
     table thead td {
