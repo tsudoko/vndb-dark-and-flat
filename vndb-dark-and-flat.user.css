@@ -259,19 +259,4 @@
     .ivview {
         z-index: 1;
     }
-
-    #fil_div .slider div {
-        border-color: #0080ff;
-        overflow: hidden;
-        background: #0080ff;
-    }
-
-    #fil_div .slider div div {
-        border: none;
-        border-left: 1px solid #0080ff;
-        background: #111;
-        height: 100%;
-        margin: 0;
-        width: 100% !important;
-    }
 }
