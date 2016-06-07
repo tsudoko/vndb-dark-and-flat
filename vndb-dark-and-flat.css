@@ -127,7 +127,7 @@
     
     /*----------------------*/
     div.mainbox, table.mainbox td, #menulist div.menubox, div#iv_view, div.thread td.tc1,
-    div#fil_div, #dd_box {
+    div#fil_div, #dd_box, div.summarize_more {
         background: #111;
         border-color: #222;
     }
@@ -184,7 +184,8 @@
     
     /*----------------------*/
     table tr.odd, table.stripe tbody tr:nth-child(2n+1):not(.nostripe),
-    .releases tr.lang td, #screenshots tr.rel td, #screenshots p.rel {
+    .releases tr.lang td, #screenshots tr.rel td, #screenshots p.rel,
+    .charsum_list div.charsum_bubble {
         background: rgba(255,255,255,0.025);
     }
     
