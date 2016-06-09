@@ -23,8 +23,12 @@
         color: #ccc;
     }
     
-    .mainbox h1, #header h1, #header h1 a, a, b.grayedout, .mainbox.threelayout h1 a, #footer a {
+    .mainbox h1, #header h1, #header h1 a, a, .mainbox.threelayout h1 a, #footer a {
         color: #0080ff;
+    }
+
+    .grayedout {
+        color: #3e5f7f;
     }
     
     a:hover, .mainbox.threelayout h1 a:hover, #footer a:hover {
