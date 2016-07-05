@@ -116,11 +116,15 @@
     
     /*----------------------*/
     div.mainbox, table.mainbox td, #menulist div.menubox, div#iv_view, div.thread td.tc1,
-    div#fil_div, #dd_box, div.summarize_more {
+    div#fil_div, #dd_box, div.summarize_more, #ds_box {
         background: #111;
         border-color: #222;
     }
     
+    #ds_box tr.selected {
+       background: #222;
+    }
+
     #dd_box li a:hover {
         background: #222;
     }
