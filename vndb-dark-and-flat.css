@@ -309,7 +309,7 @@
 
     .votegraph td div {
         background: #0080ff;
-        border: 1px solid #222;
+        outline: 1px solid #222;
     }
 
     div#iv_view {
