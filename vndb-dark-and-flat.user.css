@@ -18,8 +18,7 @@
 
     /* options */
     body {
-        background: #000 url('http://i.imgur.com/IujXRPI.png') top left no-repeat;
-        background-size: cover;
+        background: #000;
     }
 
     #bgright {
