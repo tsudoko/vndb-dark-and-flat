@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         VNDB: Dark and Flat
-@version      0.0.1
+@version      0.0.2
 @description  Fork of https://userstyles.org/styles/102356/, mostly minor bugfixes
 @namespace    https://github.com/tsudoko
 @homepageURL  https://github.com/tsudoko/vndb-dark-and-flat
@@ -11,7 +11,7 @@
 
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("vndb.org") {
+@-moz-document regexp("https?://vndb.org/.*") {
     * {
         font-family: "Open Sans", "Segoe UI", "Calibri", sans-serif !important;
     }
