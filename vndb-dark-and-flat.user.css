@@ -30,6 +30,10 @@
         top: 81px;
     }
 
+    #menulist h2 a[href^="/u"] {
+        text-transform: lowercase;
+    }
+
     /* options */
     body {
         background: #000;
