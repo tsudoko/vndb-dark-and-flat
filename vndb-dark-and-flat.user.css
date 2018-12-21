@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         VNDB: Dark and Flat
-@version      0.0.2
+@version      0.0.4
 @description  Fork of https://userstyles.org/styles/102356/, mostly minor bugfixes
 @namespace    https://github.com/tsudoko
 @homepageURL  https://github.com/tsudoko/vndb-dark-and-flat
@@ -34,7 +34,10 @@
         color: #ccc;
     }
 
-    .mainbox h1, #header h1, #header h1 a, a, .mainbox.threelayout h1 a, #footer a {
+    /* XXX: it's probably better to add a "fake_link" class to #tagops labels
+     *      upstream instead of specifying them here
+     */
+    .mainbox h1, #header h1, #header h1 a, a, .fake_link, .mainbox.threelayout h1 a, #footer a, #tagops label {
         color: #0080ff;
     }
 
@@ -42,7 +45,10 @@
         color: #3e5f7f;
     }
 
-    a:hover, .mainbox.threelayout h1 a:hover, #footer a:hover {
+    /* XXX: it's probably better to add a "fake_link" class to #tagops labels
+     *      upstream instead of specifying them here
+     */
+    a:hover, .fake_link:hover, .mainbox.threelayout h1 a:hover, #footer a:hover, #tagops label:hover {
         color: #00c0ff;
     }
 
