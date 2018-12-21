@@ -16,6 +16,20 @@
         font-family: "Open Sans", "Segoe UI", "Calibri", sans-serif !important;
     }
 
+    #header {
+        top: initial;
+        left: 30px;
+        margin: 20px 5px;
+    }
+
+    #maincontent {
+        top: 60px;
+    }
+
+    #menulist {
+        top: 81px;
+    }
+
     /* options */
     body {
         background: #000;
