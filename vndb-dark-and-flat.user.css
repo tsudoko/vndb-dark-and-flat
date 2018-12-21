@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         VNDB: Dark and Flat
+@version      0.0.1
+@description  Fork of https://userstyles.org/styles/102356/, mostly minor bugfixes
+@namespace    https://github.com/tsudoko
+@homepageURL  https://github.com/tsudoko/vndb-dark-and-flat
+@supportURL   https://github.com/tsudoko/vndb-dark-and-flat/issues
+@updateURL    https://raw.githubusercontent.com/tsudoko/vndb-dark-and-flat/master/vndb-dark-and-flat.user.css
+@license      CC0-1.0
+==/UserStyle== */
+
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("vndb.org") {
