@@ -158,15 +158,16 @@
         text-align: right;
     }
 
-    ul.maintabs li a {
+    div.maintabs > ul li a {
         background: none;
         background-color: #222;
         border: none;
         color: #ccc;
     }
 
-    ul.maintabs li a, ul.maintabs li b,
-    ul.maintabs li.left a, ul.maintabs li.left b {
+    div.maintabs > ul li a, div.maintabs > ul li b,
+    div.maintabs > ul li.left a, div.maintabs > ul li.left b,
+    div.maintabs.bottom > ul li a {
         height: 21px;
         padding: 3px 20px;
         margin-left: 0;
@@ -176,12 +177,12 @@
         transition: 0.25s ease, border 1s ease;
     }
 
-    ul.maintabs li.tabselected a, ul.maintabs li a:hover {
+    div.maintabs > ul li.tabselected a, div.maintabs > ul li a:hover {
         background: #0060c0;
         padding: 3px 20px;
     }
 
-    ul.maintabs li a:hover, ul.maintabs li b:hover {
+    div.maintabs > ul li a:hover, div.maintabs > ul li b:hover {
         border-bottom: 10px solid #0080ff;
         transition: 0.25s ease;
     }
