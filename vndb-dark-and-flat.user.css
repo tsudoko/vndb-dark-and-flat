@@ -37,7 +37,7 @@
     /* XXX: it's probably better to add a "fake_link" class to #tagops labels
      *      upstream instead of specifying them here
      */
-    .mainbox h1, #header h1, #header h1 a, a, .fake_link, .mainbox.threelayout h1 a, #footer a, #tagops label {
+    .mainbox h1, #header h1, #header h1 a, a, .fake_link, .linkradio label, .mainbox.threelayout h1 a, #footer a, #tagops label {
         color: #0080ff;
     }
 
