@@ -37,7 +37,7 @@
     /* XXX: it's probably better to add a "fake_link" class to #tagops labels
      *      upstream instead of specifying them here
      */
-    .mainbox h1, #header h1, #header h1 a, a, .fake_link, .linkradio label, .mainbox.threelayout h1 a, #footer a, #tagops label {
+    .mainbox h1, #header h1, #header h1 a, a, .fake_link, .linkradio label, .mainbox.threelayout h1 a, #footer a, #tagops label, .charops label {
         color: #0080ff;
     }
 
@@ -48,7 +48,7 @@
     /* XXX: it's probably better to add a "fake_link" class to #tagops labels
      *      upstream instead of specifying them here
      */
-    a:hover, .fake_link:hover, .mainbox.threelayout h1 a:hover, #footer a:hover, #tagops label:hover {
+    a:hover, .fake_link:hover, .mainbox.threelayout h1 a:hover, #footer a:hover, #tagops label:hover, .charops label:hover {
         color: #00c0ff;
     }
 
