@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         VNDB: Dark and Flat
-@version      0.0.5
+@version      0.0.6
 @description  Fork of https://userstyles.org/styles/102356/, mostly minor bugfixes
 @namespace    https://github.com/tsudoko
 @homepageURL  https://github.com/tsudoko/vndb-dark-and-flat
@@ -132,7 +132,7 @@
     }
 
     /*----------------------*/
-    div.mainbox, table.mainbox td, #menulist div.menubox, div#iv_view, div.thread td.tc1,
+    div.mainbox, table.mainbox td, #menulist div.menubox, .ivview, div.thread td.tc1,
     div#fil_div, #dd_box, div.summarize_more, #ds_box {
         background: #111;
         border-color: #222;
@@ -336,26 +336,8 @@
         outline: 1px solid #222;
     }
 
-    div#iv_view {
+    .ivview {
         z-index: 1;
-    }
-
-    div#iv_view #ivimg::after {
-        content: "click image to close";
-        position: absolute;
-        display: block;
-        bottom: 25px;
-        left: 5px;
-        width: calc(100% - 10px);
-        height: 0px;
-        font-size: 12px;
-        background: rgba(0,0,0,0.5);
-        overflow: hidden;
-        transition: 0.25s ease;
-    }
-
-    div#iv_view #ivimg:hover::after {
-        height: 20px;
     }
 
     #fil_div .slider div {
