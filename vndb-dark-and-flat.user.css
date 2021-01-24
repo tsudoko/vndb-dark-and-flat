@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         VNDB: Dark and Flat
-@version      0.0.6
+@version      0.0.7
 @description  Fork of https://userstyles.org/styles/102356/, mostly minor bugfixes
 @namespace    https://github.com/tsudoko
 @homepageURL  https://github.com/tsudoko/vndb-dark-and-flat
@@ -132,7 +132,8 @@
     }
 
     /*----------------------*/
-    div.mainbox, table.mainbox td, #menulist div.menubox, .ivview, div.thread td.tc1,
+    div.mainbox, div.threelayout > div,
+    table.mainbox td, #menulist div.menubox, .ivview, div.thread td.tc1,
     div#fil_div, #dd_box, div.summarize_more, #ds_box {
         background: #111;
         border-color: #222;
